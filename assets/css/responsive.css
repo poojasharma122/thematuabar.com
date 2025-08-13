@@ -169,6 +169,13 @@
     .py-8 {
         padding: 3rem 0;
     }
+    .pokies_ul {
+        grid-template-columns: repeat(3,auto);
+    }
+    .my-5 {
+        margin-top: 2rem!important;
+        margin-bottom: 2rem!important;
+    }
 }
 
 
@@ -194,6 +201,9 @@
     .disclaimer_wrap h3 {
         font-size: 1.7rem;
     }
+    .behind_bar_text h2, .section_heading {
+        font-size: 1.9rem;
+    }
 
 }
 
@@ -215,5 +225,8 @@
     }
     .home_why_us_img_outer {
         height: 20.75rem;
+    }
+    .pokies_ul {
+        grid-template-columns: repeat(2,auto);
     }
 }
