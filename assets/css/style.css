@@ -449,7 +449,10 @@ span.theme {
 .section_heading {
     margin-bottom: 0;
 }
-
+.bold {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .behind_bar_image {
     height: 100%;
     width: 100%;
@@ -464,9 +467,14 @@ span.theme {
 }
 
 .behind_bar_text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 27px;
     color: #777;
+}
+.behind_bar_text p a {
+    color: #c19b76;
+    display: inline-block;
+    padding: 0 2px;
 }
 
 .behind_bar_inner {
@@ -524,7 +532,7 @@ span.theme {
 }
 
 .next_event .behind_bar_text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 27px;
     color: #000;
 }
@@ -753,13 +761,17 @@ span.theme {
     text-align: left;
     line-height: 1.5;
     font-size: 1rem;
-    color: #fff;
+    color: #777777;
 }
 .party_wahts_included .home_why_us_content p {
     font-size: 1.3rem;
     color: #C19B76;
     text-align: center;
 
+}
+.home_why_us_wrap {
+    max-width: 1190px;
+    margin: 0 auto;
 }
 /* Party Page CSS End */
 
