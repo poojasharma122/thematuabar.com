@@ -13,7 +13,12 @@ h6 {
     line-height: 1;
     letter-spacing: 0.6px;
 }
-
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
 .pt-8 {
     padding-top: 5rem;
 }
@@ -569,7 +574,7 @@ span.theme{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 14.375rem;
+    max-width: 9.375rem;
 }
 
 .social-icons {
@@ -577,8 +582,8 @@ span.theme{
 }
 
 .social-icons li a {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     border: 1px solid #fff;
     display: inline-flex;
