@@ -744,7 +744,10 @@ span.theme {
 .home_why_us_img_outer:hover .common_overlay {
     transform: translate(-50%, -50%) scale(1);
 }
-
+.second_after_banner_right p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 .home_why_us_img {
     height: 100%;
 }
@@ -766,7 +769,7 @@ span.theme {
     text-align: left;
     line-height: 1.5;
     font-size: 1rem;
-    color: #454545;
+    color: #858585;
 }
 .party_wahts_included .home_why_us_content p {
     font-size: 1.3rem;
