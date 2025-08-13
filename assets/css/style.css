@@ -777,6 +777,9 @@ span.theme {
     text-align: center;
 
 }
+.text_white {
+    font-size: 1.1rem;
+}
 .home_why_us_wrap {
     max-width: 1190px;
     margin: 0 auto;
