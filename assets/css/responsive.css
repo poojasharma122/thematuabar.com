@@ -176,6 +176,9 @@
         margin-top: 2rem!important;
         margin-bottom: 2rem!important;
     }
+    .mb-5 {
+        margin-bottom: 2rem!important;
+    }
 }
 
 
@@ -204,7 +207,12 @@
     .behind_bar_text h2, .section_heading {
         font-size: 1.9rem;
     }
-
+    .footer-pages-content-grp h3 {
+        font-size: 1.5rem;
+    }
+    .footer-pages-wrap {
+        padding: 1.25rem;
+     }
 }
 
 @media screen and  (max-width:480px){
