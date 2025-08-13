@@ -86,6 +86,9 @@
     .behind_bar_text h2, .section_heading {
         font-size: 1.8rem;
     }
+    .btn_contact {
+        font-size: 0.8rem;
+    }
 }
 
 
