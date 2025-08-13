@@ -13,12 +13,14 @@ h6 {
     line-height: 1;
     letter-spacing: 0.6px;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
+
 .pt-8 {
     padding-top: 5rem;
 }
@@ -26,6 +28,22 @@ a{
 .pb-8 {
     padding-bottom: 5rem;
 }
+
+.py-8 {
+    padding: 5rem 0;
+}
+.pt-6 {
+    padding-top: 3.75rem;
+}
+
+.pb-6 {
+    padding-bottom: 3.75rem;
+}
+
+.py-6 {
+    padding: 3.75rem 0;
+}
+
 
 * {
     margin: 0;
@@ -83,16 +101,20 @@ ul {
     font-size: 1.125rem;
     font-style: normal;
 }
-.text_white{
+
+.text_white {
     color: #fff;
 }
-.text_theme{
-    color: #c19b76 ;
+
+.text_theme {
+    color: #c19b76;
 }
-span.theme{
+
+span.theme {
     color: #C19B76;
     display: inline-block;
 }
+
 /* global css end here */
 
 /* Header CSS Start */
@@ -418,11 +440,14 @@ span.theme{
     background-color: #19191a;
 }
 
-.behind_bar_text h2 {
+.behind_bar_text h2 ,.section_heading {
     font-size: 2.2rem;
     line-height: 40px;
     margin-bottom: 20px;
     color: #C19B76;
+}
+.section_heading {
+    margin-bottom: 0;
 }
 
 .behind_bar_image {
@@ -456,6 +481,15 @@ span.theme{
     align-items: start;
     height: 100%;
     padding: 3rem 1rem;
+}
+
+.behind_bar_text ul li {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+
+.behind_bar_text ul li::marker {
+    color: #C19B76;
 }
 
 .btn_contact {
@@ -538,7 +572,8 @@ span.theme{
     padding: 0.625rem 0;
 }
 
-.footer-links li a::after ,.disclaimer_wrap p a::after {
+.footer-links li a::after,
+.disclaimer_wrap p a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -552,16 +587,19 @@ span.theme{
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
-.footer-links li a:hover{
+
+.footer-links li a:hover {
     color: #C19B76;
 }
+
 .disclaimer_wrap p a::after {
     bottom: -3px;
     height: 1px;
     background-color: #c19b76;
 }
 
-.footer-links li a:hover::after ,.disclaimer_wrap p a:hover::after{
+.footer-links li a:hover::after,
+.disclaimer_wrap p a:hover::after {
     transform: scaleX(0.9);
 }
 
@@ -622,25 +660,111 @@ span.theme{
     width: 100%;
     fill: #fff;
 }
+
 .connect_links li a {
     font-size: 18px;
     color: #fff;
     transition: 0.2s all ease-in-out;
 }
+
 .connect_links li a:hover {
     color: #C19B76;
 }
+
 .bg_center_contain {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .disclaimer_wrap p a {
-    color:#C19B76;
+    color: #C19B76;
     transition: 0.2s all ease-in-out;
     position: relative;
 }
+
 /* footer end  */
+
+
+/* Party Page CSS Start */
+
+.home_why_cards {
+    position: relative;
+    height: 100%;
+    background: #19191a;
+    border-radius: 1.875rem;
+    padding: 1.25rem;
+    border: 1px solid #C19B76;
+}
+
+.home_why_us_wrap>p {
+    font-size: 1.2rem;
+}
+
+.home_why_us_img_outer {
+    border-radius: 1.25rem;
+    height: 18.75rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.common_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255/30%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+    transform-origin: center;
+}
+
+.home_why_us_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.home_why_us_img {
+    height: 100%;
+}
+
+.home_why_us_content {
+    padding: 1.25rem 0;
+}
+
+.home_why_us_content h4 {
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: #c09342;
+}
+
+.home_why_us_content p {
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #fff;
+}
+.party_wahts_included .home_why_us_content p {
+    font-size: 1.3rem;
+    color: #C19B76;
+    text-align: center;
+
+}
+/* Party Page CSS End */
+
+
+
 
 /* Footer Pages CSS End*/
 .footer-pages-wrap {
@@ -718,6 +842,7 @@ span.theme{
 .footer-pages-content-grp a {
     color: white;
 }
+
 /* Footer Pages CSS End*/
 
 /* Contact CSS  Start */
@@ -770,24 +895,21 @@ span.theme{
 .contact_page_content_info h3 {
     margin-bottom: 2.5rem;
 }
+
 .contact_form_btn {
     border-radius: 1.25rem;
 }
+
 .text_white {
     color: #fff;
 }
+
 .text_theme {
     color: #bb9457;
 }
-.padding-div{
+
+.padding-div {
     padding: 30px 0 0;
 }
+
 /* Contact CSS End */
-
-
-
-
-
-
-
-
