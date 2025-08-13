@@ -258,7 +258,7 @@ span.theme{
     z-index: -1;
 }
 
-.home_content h2 {
+.home_content h1 {
     font-size: 3rem;
     color: #fff;
     font-weight: 500;
@@ -474,7 +474,7 @@ span.theme{
     background-position: 1% 50% !important;
     background-size: 300% 300% !important;
     text-decoration: none;
-    margin: 0;
+    margin: 20px 0;
     border: 1px solid #C19B76 !important;
 }
 
