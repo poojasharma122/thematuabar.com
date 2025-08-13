@@ -2,6 +2,7 @@
     html{
         font-size: 15px;
     }
+
 }
 
 
@@ -79,6 +80,12 @@
         grid-column: auto;
         padding-left: 0;
     }
+    .behind_bar_inner {
+        max-width: 100%;
+    }  
+    .behind_bar_text h2, .section_heading {
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -139,13 +146,14 @@
     .behind_bar_image {
         height: 25rem;
     }
-    .behind_bar_inner {
-        max-width: 100%;
-    }  
+
       .behind_bar_text {
         padding: 2rem 0rem 0 0;
     }
     .home_content h1 {
+        font-size: 2.2rem;
+    }
+    .behind_bar_text h2, .section_heading {
         font-size: 2.2rem;
     }
 }
@@ -161,6 +169,9 @@
     .home_content h1 {
         font-size: 2rem;
     }
+    .btn_contact {
+        padding: 0.9375rem 1.25rem;
+    }
 
 }
 
@@ -170,5 +181,8 @@
     }  
     .banner_section {
         height: 28.75rem;
+    }
+    .behind_bar_text h2, .section_heading {
+        font-size: 1.8rem;
     }
 }
