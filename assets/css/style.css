@@ -303,7 +303,7 @@ span.theme {
 
 /* info css start */
 .info {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .second_after_banner {
@@ -330,11 +330,11 @@ span.theme {
 
 .second_after_banner_right {
     padding: 2rem;
-    margin-top: 50px;
+    margin-top:3.125rem ;
 }
 
 .info-leftRight {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .info-leftImg {
@@ -344,7 +344,7 @@ span.theme {
     background-position: center;
     width: 100%;
     border-radius: 4px;
-    height: 400px;
+    height: 25rem;
 }
 
 .info-leftLeft .info-leftImg {
@@ -369,8 +369,8 @@ span.theme {
 
 .custom-slider-container {
     width: 100%;
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 75rem;
+    margin: 2.5rem auto;
     overflow: hidden;
     position: relative;
 }
@@ -393,16 +393,16 @@ span.theme {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     overflow: hidden;
     text-align: center;
-    padding: 24px 12px;
+    padding: 1.5rem 0.75rem;
     height: 100%;
 }
 
 .custom-slide img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     object-fit: cover;
     border-radius: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .custom-slider-arrow {
@@ -413,8 +413,8 @@ span.theme {
     color: #fff;
     border: none;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     cursor: pointer;
     z-index: 2;
     font-size: 1.5rem;
@@ -442,7 +442,7 @@ span.theme {
 
 .behind_bar_text h2 ,.section_heading {
     font-size: 2.2rem;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-bottom: 20px;
     color: #C19B76;
 }
@@ -468,7 +468,7 @@ span.theme {
 
 .behind_bar_text p {
     font-size: 1.1rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #777;
 }
 .behind_bar_text p a {
@@ -510,13 +510,13 @@ span.theme {
     letter-spacing: 0.3em;
     color: #C19B76 !important;
     border-radius: 0;
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     transition: all 0.7s ease-out;
     background: linear-gradient(281deg, #c19b76, #898ac47a, rgb(34 34 34 / 8%), rgba(34, 34, 34, 0)) !important;
     background-position: 1% 50% !important;
     background-size: 300% 300% !important;
     text-decoration: none;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     border: 1px solid #C19B76 !important;
 }
 
@@ -533,7 +533,7 @@ span.theme {
 
 .next_event .behind_bar_text p {
     font-size: 1.1rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #454545;
 }
 
@@ -670,7 +670,7 @@ span.theme {
 }
 
 .connect_links li a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #fff;
     transition: 0.2s all ease-in-out;
 }
@@ -780,7 +780,7 @@ span.theme {
     font-size: 1.1rem;
 }
 .home_why_us_wrap {
-    max-width: 1190px;
+    max-width: 74.375rem;
     margin: 0 auto;
 }
 .home_why_us_img {
@@ -816,7 +816,7 @@ transform:translateY(-4px)
     color: #454545 !important;
 }
 .food_drinks_sec  .behind_bar_inner {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
 .bg_white{
@@ -834,20 +834,20 @@ transform:translateY(-4px)
     margin-bottom: 1.875rem;
 }
 .how_we_select_cards_content p svg {
-    height: 17px;
-    width: 17px;
+    height:1.0625rem;
+    width: 1.0625rem;
     fill: #4c4c4c;
     margin-top: -4px;
 }
 .home_plan_img_outer.icon_img {
     height: 15.625rem;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .home_plan_cards.big_img  .home_plan_img_outer.icon_img {
     height: 18.625rem;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .home_plan_img {
     height: 3.75rem;
@@ -1038,7 +1038,7 @@ margin-bottom: 2.5rem;
 
 }
 .padding-div {
-    padding: 30px 0 0;
+    padding: 1.875rem 0 0;
 }
 .contact_page_content_info ul li {
     margin-left: 1.25rem;
