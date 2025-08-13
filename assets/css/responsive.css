@@ -1,4 +1,12 @@
+@media (max-width: 1199px) {
+    html{
+        font-size: 15px;
+    }
+}
+
+
 @media (max-width: 991px) {
+
     .navigation-menu {
         position: fixed;
         top: 0;
@@ -80,7 +88,9 @@
     .custom-slide {
         min-width: 100%;
     }
-
+    html{
+        font-size: 14px;
+    }
     .custom-slider-arrow {
         width: 32px;
         height: 32px;
@@ -106,5 +116,53 @@
     .footer-contact {
         grid-column: 1 / -1;
         padding-left: 0;
+    }
+    .second_after_banner_right ,.info-left {
+        width: 100%;
+    }
+    .info-left {
+        flex-direction: column;
+    }
+    .info-leftRight {
+        margin-top: 0;
+        width: 100%;
+    }
+    .info-leftRight, .info-leftLeft {
+        width: 100%;
+    }
+    .info-leftImg {
+        height: 20rem;
+    }
+    .second_after_banner_right {
+          margin-top: 0;
+    }
+    .second_after_banner_right {
+        padding: 1.5rem 0;
+    }
+    .behind_bar_image {
+        height: 25rem;
+    }
+    .behind_bar_inner {
+        max-width: 100%;
+    }  
+      .behind_bar_text {
+        padding: 2rem 0rem 0 0;
+    }
+}
+
+
+@media (max-width:575px){
+    .slider_heading h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and  (max-width:480px){
+    .home_content h1 {
+        font-size: 1.7rem;
+    }  
+    .banner_section {
+        height: 28.75rem;
     }
 }
