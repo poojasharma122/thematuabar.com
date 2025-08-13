@@ -520,7 +520,8 @@ span.theme{
 
 .footer-top h4 {
     font-size: 1.375rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.25rem;
+    color: #C19B76;
 }
 
 .footer-links {
@@ -537,7 +538,7 @@ span.theme{
     padding: 0.625rem 0;
 }
 
-.footer-links li a::after {
+.footer-links li a::after ,.disclaimer_wrap p a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -547,12 +548,20 @@ span.theme{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #C19B76;
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
+.footer-links li a:hover{
+    color: #C19B76;
+}
+.disclaimer_wrap p a::after {
+    bottom: -3px;
+    height: 1px;
+    background-color: #c19b76;
+}
 
-.footer-links li a:hover::after {
+.footer-links li a:hover::after ,.disclaimer_wrap p a:hover::after{
     transform: scaleX(0.9);
 }
 
@@ -613,5 +622,22 @@ span.theme{
     width: 100%;
     fill: #fff;
 }
-
+.connect_links li a {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+}
+.connect_links li a:hover {
+    color: #C19B76;
+}
+.bg_center_contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.disclaimer_wrap p a {
+    color:#C19B76;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+}
 /* footer end  */
