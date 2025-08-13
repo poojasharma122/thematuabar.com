@@ -836,6 +836,9 @@ transform:translateY(-4px)
 .text_dark{
     color: #454545;
 }
+.second_after_banner_right h4 {
+    line-height: 1.3;
+}
 /* Party Page CSS End */
 
 /* Home Start CSS Start*/
