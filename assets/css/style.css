@@ -601,7 +601,10 @@ span.theme {
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
-
+.disclaimer_wrap h3 {
+    font-size: 2rem;
+    color: #C19B76;
+}
 .footer-links li a:hover {
     color: #C19B76;
 }
