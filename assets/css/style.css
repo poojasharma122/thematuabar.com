@@ -32,6 +32,7 @@ a {
 .py-8 {
     padding: 5rem 0;
 }
+
 .pt-6 {
     padding-top: 3.75rem;
 }
@@ -309,7 +310,7 @@ span.theme {
 
 .second_after_banner {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
@@ -333,7 +334,7 @@ span.theme {
 
 .second_after_banner_right {
     padding: 2rem;
-    margin-top:3.125rem ;
+    margin-top: 3.125rem;
 }
 
 .info-leftRight {
@@ -369,9 +370,11 @@ span.theme {
     text-align: center;
     line-height: 2.5rem;
 }
+
 .slider_heading {
     padding: 0 .9375rem;
 }
+
 .custom-slider-container {
     width: 100%;
     max-width: 75rem;
@@ -446,19 +449,23 @@ span.theme {
     background-color: #19191a;
 }
 
-.behind_bar_text h2 ,.section_heading {
+.behind_bar_text h2,
+.section_heading {
     font-size: 2.2rem;
     line-height: 2.5rem;
     margin-bottom: 20px;
     color: #C19B76;
 }
+
 .section_heading {
     margin-bottom: 0;
 }
+
 .bold {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 .behind_bar_image {
     height: 100%;
     width: 100%;
@@ -477,16 +484,19 @@ span.theme {
     line-height: 1.5;
     color: #777;
 }
+
 .behind_bar_text p a {
     color: #c19b76;
     display: inline-block;
     padding: 0 2px;
     transition: 0.2s all ease-in-out;
 }
+
 .behind_bar_text p a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
 .behind_bar_inner {
     max-width: 80%;
     margin: 0 auto;
@@ -606,10 +616,12 @@ span.theme {
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
+
 .disclaimer_wrap h3 {
     font-size: 2rem;
     color: #C19B76;
 }
+
 .footer-links li a:hover {
     color: #C19B76;
 }
@@ -639,6 +651,32 @@ span.theme {
     color: #fff;
 }
 
+.behind_bar_text .social-icons ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.behind_bar_text .social-icons ul {
+    gap: 0.625rem;
+}
+.behind_bar_text .social-icons li a {
+    border: 1px solid #C19B76;
+}
+.behind_bar_text .social-icons li a svg {
+    fill: #C19B76;
+}
+.social-icons li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
 .social-icons ul {
     display: flex;
     flex-wrap: wrap;
@@ -698,6 +736,7 @@ span.theme {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .bg_center_cover {
     background-position: center;
     background-repeat: no-repeat;
@@ -757,10 +796,12 @@ span.theme {
 .home_why_us_img_outer:hover .common_overlay {
     transform: translate(-50%, -50%) scale(1);
 }
+
 .second_after_banner_right p {
     font-size: 1.1rem;
     font-weight: 500;
 }
+
 .home_why_us_img {
     height: 100%;
 }
@@ -784,19 +825,23 @@ span.theme {
     font-size: 1rem;
     color: #858585;
 }
+
 .party_wahts_included .home_why_us_content p {
     font-size: 1.3rem;
     color: #C19B76;
     text-align: center;
 
 }
+
 .text_white {
     font-size: 1.1rem;
 }
+
 .home_why_us_wrap {
     max-width: 74.375rem;
     margin: 0 auto;
 }
+
 .home_why_us_img {
     height: 100%;
     width: 100%;
@@ -808,17 +853,19 @@ span.theme {
     height: 100%;
     transition: 0.2s all ease-in-out;
 }
+
 .behind_bar .home_why_us_card {
     background-color: #f2eee8;
 }
 
 .home_why_us_card:hover {
-transform:translateY(-4px)
+    transform: translateY(-4px)
 }
 
 .home_why_us_txt {
     padding: 1rem;
 }
+
 .home_why_us_txt h5 {
     color: #C19B76;
     margin-bottom: 1.25rem;
@@ -827,22 +874,28 @@ transform:translateY(-4px)
 .home_why_us_txt p {
     color: #fff;
 }
-.behind_bar  .home_why_us_txt p {
+
+.behind_bar .home_why_us_txt p {
     color: #454545;
 }
-.food_drinks_sec  .behind_bar_inner {
+
+.food_drinks_sec .behind_bar_inner {
     max-width: 68.75rem;
     margin: 0 auto;
 }
-.bg_white{
+
+.bg_white {
     background-color: #fff;
 }
-.text_dark{
+
+.text_dark {
     color: #454545;
 }
+
 .second_after_banner_right h4 {
     line-height: 1.3;
 }
+
 /* Party Page CSS End */
 
 /* Home Start CSS Start*/
@@ -851,22 +904,26 @@ transform:translateY(-4px)
     width: 100%;
     margin-bottom: 1.875rem;
 }
+
 .how_we_select_cards_content p svg {
-    height:1.0625rem;
+    height: 1.0625rem;
     width: 1.0625rem;
     fill: #4c4c4c;
     margin-top: -4px;
 }
+
 .home_plan_img_outer.icon_img {
     height: 15.625rem;
     width: 100%;
     margin-bottom: 1.875rem;
 }
-.home_plan_cards.big_img  .home_plan_img_outer.icon_img {
+
+.home_plan_cards.big_img .home_plan_img_outer.icon_img {
     height: 18.625rem;
     width: 100%;
     margin-bottom: 1.875rem;
 }
+
 .home_plan_img {
     height: 3.75rem;
     width: 3.75rem;
@@ -883,28 +940,35 @@ transform:translateY(-4px)
     height: 100%;
     transition: 0.2s all ease-in-out;
 }
+
 .home_plan_cards:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .hotel_map iframe {
     width: 100%;
 }
-.hotel_map  {
-margin-bottom: 2.5rem;
+
+.hotel_map {
+    margin-bottom: 2.5rem;
 }
+
 .games_pokies .behind_bar_inner {
     max-width: 100%;
 }
+
 .pokies_ul {
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(4, auto);
     gap: 10px;
 }
+
 .pokies_ul li {
     text-align: center;
     background: #c19b76;
     padding: 0.3125rem;
 }
+
 /* Home Start CSS End*/
 
 
@@ -1049,20 +1113,25 @@ margin-bottom: 2.5rem;
 
 .contact_page_content_info p a {
     color: #454545;
-    transition:0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
-.contact_page_content_info p a:hover{
+
+.contact_page_content_info p a:hover {
     color: #C19B76;
 
 }
+
 .padding-div {
     padding: 1.875rem 0 0;
 }
+
 .contact_page_content_info ul li {
     margin-left: 1.25rem;
     list-style-type: disc;
 }
+
 .contact_page_content_info ul li::marker {
-color: #C19B76;
+    color: #C19B76;
 }
+
 /* Contact CSS End */
