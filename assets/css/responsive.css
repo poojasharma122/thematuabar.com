@@ -46,8 +46,8 @@
         text-align: end;
         z-index: 55;
         font-size: 21px;
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
     }
 
     .sticky-header.fixed_header .navigation-menu ul li a {
@@ -95,9 +95,6 @@
         width: 32px;
         height: 32px;
         font-size: 1.1rem;
-    }
-    .footer-logo a {
-        width: 120px;
     }
 
     .footer-bottom {
@@ -148,11 +145,20 @@
       .behind_bar_text {
         padding: 2rem 0rem 0 0;
     }
+    .home_content h1 {
+        font-size: 2.2rem;
+    }
 }
 
 
 @media (max-width:575px){
     .slider_heading h2 {
+        font-size: 2rem;
+    }
+    .home_content h1 {
+        font-size: 2rem;
+    }
+    .home_content h1 {
         font-size: 2rem;
     }
 

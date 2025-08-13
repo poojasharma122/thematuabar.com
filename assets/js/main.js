@@ -7,6 +7,17 @@
   });
   // Header Scroll JS End
 
+  // Toggle Menu Functionaliy Start
+$(document).ready(function () {
+  $(".menu-toggle-btn").click(function () {
+    $("body").addClass("menuToggle");
+  });
+  $(".menu-close-btn").click(function () {
+    $("body").removeClass("menuToggle");
+  });
+});
+// Toggle Menu Functionaliy End
+
 // carousel slider start
 (function() {
   const slider = document.getElementById('customSlider');
