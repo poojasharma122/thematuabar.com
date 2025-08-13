@@ -684,6 +684,11 @@ span.theme {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .disclaimer_wrap p a {
     color: #C19B76;
@@ -710,10 +715,10 @@ span.theme {
 }
 
 .home_why_us_img_outer {
-    border-radius: 1.25rem;
-    height: 18.75rem;
+    height: 25.75rem;
     overflow: hidden;
     position: relative;
+    margin-bottom: 1.25rem;
 }
 
 .common_overlay {
@@ -771,6 +776,36 @@ span.theme {
 }
 .home_why_us_wrap {
     max-width: 1190px;
+    margin: 0 auto;
+}
+.home_why_us_img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.home_why_us_card {
+    background-color: #19191a;
+    height: 100%;
+    transition: 0.2s all ease-in-out;
+}
+
+.home_why_us_card:hover {
+transform:translateY(-4px)
+}
+
+.home_why_us_txt {
+    padding: 1rem;
+}
+.home_why_us_txt h5 {
+    color: #C19B76;
+    margin-bottom: 1.25rem;
+}
+.home_why_us_txt p {
+    color: #fff;
+}
+.food_drinks_sec  .behind_bar_inner {
+    max-width: 1100px;
     margin: 0 auto;
 }
 /* Party Page CSS End */
