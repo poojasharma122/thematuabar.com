@@ -814,6 +814,12 @@ transform:translateY(-4px)
     max-width: 1100px;
     margin: 0 auto;
 }
+.bg_white{
+    background-color: #fff;
+}
+.text_dark{
+    color: #454545;
+}
 /* Party Page CSS End */
 
 
